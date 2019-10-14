@@ -121,3 +121,8 @@ git checkout <receiving>
 git pull
 git merge <branch-name> where <branch-name>
 ```
+# Rebasing
+Rebases the current branch onto the specified branch
+```
+git rebase <branch-name>
+```
