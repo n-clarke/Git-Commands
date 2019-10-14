@@ -89,7 +89,7 @@ git commit -m “removing file”
 git mv <FileName> <NewLocation/FolderName>
 git commit -m “Moving File”
 ```
-# Tracability
+# Traceability
 **Check the log of commits author and date**
 ```
 git log
@@ -97,22 +97,6 @@ git log
 **Display the changes between commits, current commit and working tree**
 ```
 git diff
-```
-# Remote Connection
-**Init Remote Connection to a Git Repository**
-```
-git remote add origin url
-git remote -v
-git push -u origin <branch-name>
-```
-**Send Changes to Remote**
-```
-git push -u remote-name <branch-name>
-git push remote-name <branch-name>
-```
-**Receive Changes from Remote**
-```
-git pull remote-name <branch-name>
 ```
 # Merging
 **Merge**
@@ -144,4 +128,20 @@ git commit --amend
 **Modify the Most Recent Commit with Comment**
 ```
 git commit --amend -m "an updated commit message"
+```
+# Remote Connection
+**Init Remote Connection to a Git Repository**
+```
+git remote add origin url
+git remote -v
+git push -u origin <branch-name>
+```
+**Send Changes to Remote**
+```
+git push -u remote-name <branch-name>
+git push remote-name <branch-name>
+```
+**Receive Changes from Remote**
+```
+git pull remote-name <branch-name>
 ```
