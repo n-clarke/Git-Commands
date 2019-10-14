@@ -4,9 +4,7 @@
 git help
 git help <CommandName>
 ```
- 
 ## Configuration Commands
-## Git Configuration Commands
 ### What's the current directory (present working directory)?
 ```
 pwd
