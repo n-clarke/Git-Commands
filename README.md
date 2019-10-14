@@ -89,7 +89,7 @@ git commit -m “removing file”
 git mv <FileName> <NewLocation/FolderName>
 git commit -m “Moving File”
 ```
-# Tracing Changes
+# Tracability
 **Check the log of commits author and date**
 ```
 git log
