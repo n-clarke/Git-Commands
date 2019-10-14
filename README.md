@@ -122,8 +122,12 @@ git pull
 git merge <branch-name> where <branch-name>
 ```
 # Rebasing
-Rebases the current branch onto the specified branch
+> Rebases the current branch onto the specified branch
 ```
 git checkout <current-branch-name>
 git rebase <rebase-branch-name>
+```
+> Changing Multiple Commit Messages
+```
+git rebase -i <branch-name>
 ```
