@@ -99,7 +99,7 @@ git log
 git diff
 ```
 # Remote Connection
-> Init Connection to a GIT repo
+**Init Remote Connection to a Git Repository**
 ```
 git remote add origin url
 git remote -v
