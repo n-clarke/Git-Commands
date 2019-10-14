@@ -94,7 +94,7 @@ git commit -m “Moving File”
 ```
 git log
 ```
-**Display the chnages between commits, commit and working tree**
+**Display the changes between commits, current commit and working tree**
 ```
 git diff
 ```
