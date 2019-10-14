@@ -20,7 +20,7 @@ git init <project-name>
 or 
 git init 
 ```
-See hidden files: Command + Shift + .
+> See hidden files: Command + Shift + .
 # Create New Git Branch:
 ```
 git branch <branch-name>
@@ -75,10 +75,10 @@ git reset HEAD <file-name>
 ```
 > Following the above command will "unstage" the specified file from Git's staging area (aka index).
 **Backout Working Directory Changes**
+> The command will back out any changes made to the specified file and replace it with the version last committed in Git
 ```
 git checkout -- <file-name>
 ```
-Following the above command will back out any changes made to the specified file and replace it with the version last committed in Git
 **Remove Files**
 ```
 git rm <FileName>
@@ -95,7 +95,7 @@ git commit -m “Moving File”
 git log
 ```
 # Remote Connection
-Init Connection to a GIT repo
+> Init Connection to a GIT repo
 ```
 git remote add origin url
 git remote -v
