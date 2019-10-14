@@ -137,3 +137,7 @@ pick c1f3f6a changed variable name
 squash 110237a updated README formatting
 squash b1c1b0f added file
 ```
+Modify the Most Recent Commit
+```
+git commit --amend
+```
