@@ -117,5 +117,5 @@ git pull remote-name <branch-name>
 ```
 git checkout <receiving>
 git pull
-git merge <branch name> where <branch name>
+git merge <branch-name> where <branch-name>
 ```
