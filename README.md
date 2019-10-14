@@ -5,25 +5,25 @@ git help
 git help <CommandName>
 ```
 ## Configuration Commands
-### What's the current directory (present working directory)?
+**What's the current directory (present working directory)?**
 ```
 pwd
 ```
-### Git Config (Global/User-level) Syntax
+**Git Config (Global/User-level) Syntax**
 ```
 git config --global setting value
 ```
-### Configure User and Email
+**Configure User and Email**
 General Syntax:
 ```
 git config --global user.name "Your Name"
 git config --global user.email "you@someplace.com"
 ```
-### Listing All Global Configuration Settings
+**Listing All Global Configuration Settings**
 ```
 git config --global --list
 ```
-### Seeing Git's User-based Config file
+**Seeing Git's User-based Config file**
 ```
 cat ~/.gitconfig
 ```
