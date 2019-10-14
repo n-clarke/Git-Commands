@@ -127,7 +127,13 @@ git merge <branch-name> where <branch-name>
 git checkout <current-branch-name>
 git rebase <rebase-branch-name>
 ```
-> Changing Multiple Commit Messages
+> Changing Multiple Commit Messages (interactive rebasing tool)
 ```
 git rebase -i <branch-name>
+```
+> Squash several commits into a single commit
+```
+pick c1f3f6a changed variable name
+squash 110237a updated README formatting
+squash b1c1b0f added file
 ```
