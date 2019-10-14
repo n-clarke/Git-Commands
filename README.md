@@ -51,7 +51,7 @@ git config --global --list
 cat ~/.gitconfig
 ```
 # File Uploading and Changes
-** Upload All Files (Everything)**
+**Upload All Files (Everything)**
 ```
 git add .
 git commit -m “Comment”
