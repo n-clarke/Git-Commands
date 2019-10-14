@@ -55,7 +55,7 @@ cat ~/.gitconfig
 ```
 git add .
 git commit -m “Comment”
-git push origin Branch-Name
+git push origin <branch-name>
 ```
 **Upload Cherry-Picking (Single File)**
 ```
