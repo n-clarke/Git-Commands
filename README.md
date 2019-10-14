@@ -2,7 +2,7 @@
 **Help**
 ```
 git help
-git help <CommandName>
+git help <command-name>
 ```
 ## Configuration Commands
 **What's the current directory (present working directory)?**
@@ -38,7 +38,7 @@ pwd
 # Initialized empty Git repository
 After you’re in the chosen file directory / or project directory enter either
 ```
-git init <ProjectName>
+git init <project-name>
 or 
 git init 
 ```
@@ -46,14 +46,14 @@ See hidden files: Command + Shift + .
 
 # Create New Git Branch:
 ```
-git branch <Branch-Name>
+git branch <branch-name>
 ```
-# Change git directory:
+# Change Git Directory:
 ```
-git checkout <NAME> 
+git checkout <name> 
 e.g.
 git checkout master
-git checkout <Branch-Name>
+git checkout <branch-name>
 ```
 # Upload All Files (Everything)
 ```
@@ -63,25 +63,25 @@ git push origin Branch-Name
 ```
 # Upload Cherry-Picking (Single File)
 ```
-git add <FILENAME>
+git add <file-name>
 git commit -m “Comment”
-git push origin <Branch-Name>
+git push origin <branch-name>
 ```
 
 # Upload Everything (The Force)
 ```
 git add .
 git commit -m “Comment”
-git push origin <Branch-Name> --force
+git push origin <branch-name> --force
  ```
 # Unstage File
 ```
-git reset HEAD <File-Name>
+git reset HEAD <file-name>
 ```
 Following the above command will "unstage" the specified file from Git's staging area (aka index).
 # Backout Working Directory Changes
 ```
-git checkout -- <File-Name>
+git checkout -- <file-name>
 ```
 Following the above command will back out any changes made to the specified file and replace it with the version last committed in Git
 # Check the log of commits author and date
@@ -102,14 +102,20 @@ git commit -m “Moving File”
 ```
 git remote add origin url
 git remote -v
-git push -u origin <Branch-Name>
+git push -u origin <branch-name>
 ```
 # Send Changes to Remote
 ```
-git push -u remote-name branch-name
-git push remote-name branch-name
+git push -u remote-name <branch-name>
+git push remote-name <branch-name>
 ```
 # Receive Changes from Remote
 ```
-git pull remote-name branch-name
+git pull remote-name <branch-name>
+```
+# Merge
+```
+git checkout <receiving>
+git pull
+git merge <branch name> where <branch name>
 ```
