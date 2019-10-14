@@ -14,7 +14,7 @@ pwd
 cd ~/dir/
 ```
 # Initialized Empty Git Repository
-After you’re in the chosen file directory / or project directory enter either
+> After you’re in the chosen file directory / or project directory enter either
 ```
 git init <project-name>
 or 
@@ -73,7 +73,7 @@ git push origin <branch-name> --force
 ```
 git reset HEAD <file-name>
 ```
-Following the above command will "unstage" the specified file from Git's staging area (aka index).
+> Following the above command will "unstage" the specified file from Git's staging area (aka index).
 **Backout Working Directory Changes**
 ```
 git checkout -- <file-name>
