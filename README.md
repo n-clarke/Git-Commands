@@ -14,7 +14,7 @@ pwd
 cd ~/dir/
 ```
 # Initialized Empty Git Repository
-> Once your in the chosen file directory / or project directory enter either
+Once your in the chosen file directory / or project directory enter either
 ```
 git init <project-name>
 or 
