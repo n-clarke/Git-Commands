@@ -141,3 +141,7 @@ Modify the Most Recent Commit
 ```
 git commit --amend
 ```
+Modify the Most Recent Commit with Comment
+```
+git commit --amend -m "an updated commit message"
+```
