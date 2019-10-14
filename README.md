@@ -94,7 +94,7 @@ git commit -m “Moving File”
 ```
 git log
 ```
-**Remote Connection**
+# Remote Connection
 Init Connection to a GIT repo
 ```
 git remote add origin url
