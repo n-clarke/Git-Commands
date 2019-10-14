@@ -14,13 +14,13 @@ pwd
 cd ~/dir/
 ```
 # Initialized Empty Git Repository
-> After you’re in the chosen file directory / or project directory enter either
+> Once your in the chosen file directory / or project directory enter either
 ```
 git init <project-name>
 or 
 git init 
 ```
-> See hidden files: Command + Shift + .
+> To See hidden files: Command + Shift + .
 # Create New Git Branch:
 ```
 git branch <branch-name>
@@ -70,12 +70,12 @@ git commit -m “Comment”
 git push origin <branch-name> --force
  ```
 **Unstage File**
+> This command will "unstage" the specified file from Git's staging area (aka index).
 ```
 git reset HEAD <file-name>
 ```
-> Following the above command will "unstage" the specified file from Git's staging area (aka index).
 **Backout Working Directory Changes**
-> The command will back out any changes made to the specified file and replace it with the version last committed in Git
+> This command backs out any changes made to the specified file and replace it with the version last committed in Git
 ```
 git checkout -- <file-name>
 ```
