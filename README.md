@@ -124,5 +124,6 @@ git merge <branch-name> where <branch-name>
 # Rebasing
 Rebases the current branch onto the specified branch
 ```
+git checkout <branch-name>
 git rebase <branch-name>
 ```
