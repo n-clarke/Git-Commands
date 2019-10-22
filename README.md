@@ -31,6 +31,12 @@ e.g.
 git checkout master
 git checkout <branch-name>
 ```
+# Receive Changes
+```
+git pull origin <branch-name>
+or for master
+git pull origin master
+```
 ## Configuration Commands
 **Git Config (Global/User-level) Syntax**
 ```
