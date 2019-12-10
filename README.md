@@ -150,3 +150,12 @@ git push remote-name <branch-name>
 ```
 git pull remote-name <branch-name>
 ```
+# Git Reset
+*** Go back to a previous commit ***
+```
+git reset --hard <commit> 
+```
+*** Go back to master ***
+```
+git reset --hard origin/master 
+```
